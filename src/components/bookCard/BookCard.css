@@ -1,0 +1,42 @@
+.BookCard {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-top: 30px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.BookCard img {
+    border: 3px solid rgb(255, 221, 29);
+    height: 250px;
+    width: 230px;
+}
+
+.BookCard img:hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transition: 0.5s;
+}
+
+.BookCard p {
+    margin: 8px;
+}
+
+.BookCard a {
+    padding: 5px;
+    color: white;
+    background-color: #121212;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.BookCard a:hover {
+    background-color: rgb(255, 221, 29);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    color: #121212;
+    transition: 0.7s;
+}
+
+.livro1, livro2, livro3, livro4, livro5, livro6 {
+    margin-bottom: 13px;
+}

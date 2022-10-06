@@ -1,0 +1,32 @@
+.card {
+    padding: 80px;
+    margin: 95px;
+    background-color: #121212;
+    border-radius: 10px;
+}
+
+.title, .text {
+    text-align: center;
+    color: white;
+}
+
+.more {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.profile {
+    margin: 10px;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    border: 3px solid rgb(255, 221, 29);
+}
+
+.profile:hover {
+    border: 3px solid rebeccapurple;
+    transition: 0.5s;
+}
